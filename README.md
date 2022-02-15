@@ -11,12 +11,6 @@ You can make your own permission check logic [like this](http://developer.androi
 TedPermission makes it easy to check and request android permissions.
 
 
-(For Korean)
-아래 블로그를 통해 마시멜로우 권한 관련된 사항을 알아보세요
-<br/>http://gun0912.tistory.com/55
-<br/><br/>
-
-
 
 ## Demo
 
@@ -150,11 +144,11 @@ TedPermission supports the following methods.<br />
 * `setGotoSettingButton(boolean) (default: true)`
 * `setRationaleTitle(R.string.xxx or String)`
 * `setRationaleMessage(R.string.xxx or String)`
-* `setRationaleConfirmText(R.string.xxx or String) (default: confirm / 확인)`
+* `setRationaleConfirmText(R.string.xxx or String)`
 * `setDeniedTitle(R.string.xxx or String)`
 * `setDeniedMessage(R.string.xxx or String)`
-* `setDeniedCloseButtonText(R.string.xxx or String) (default: close / 닫기)`
-* `setGotoSettingButtonText(R.string.xxx or String) (default: setting / 설정)`
+* `setDeniedCloseButtonText(R.string.xxx or String)`
+* `setGotoSettingButtonText(R.string.xxx or String)`
 
 Also you can use the following utility functions.
 * `isGranted(String... permissions)`: Check if all permissions are granted
